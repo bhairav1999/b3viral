@@ -2073,7 +2073,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .main-footer{
-	padding: 100px 0 0;
+	padding: 0px 0 0;
 	background: var(--primary-color);
 }
 
@@ -2240,14 +2240,14 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-header{
-	padding: 100px 0;
+	padding: 30px 0;
 	background: var(--secondary-color);
 }
 
 .page-header-box h1{
 	color: var(--primary-color);
-	font-size: 57px;
-	line-height: 1.2em;
+	font-size: 40px;
+	line-height: 44px;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -3818,6 +3818,10 @@ header.main-header .header-sticky.active{
 	font-size: 18px;
 }
 
+.logo-viral{
+	height: 38px;
+}
+
 /************************************/
 /***     28. responsive css       ***/
 /************************************/
@@ -4162,7 +4166,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.page-header{
-		padding: 50px 0;
+		padding: 30px 0;
 	}
 	
 	.page-header-box h1{
@@ -4604,6 +4608,15 @@ header.main-header .header-sticky.active{
 }
 
 @media only screen and (max-width: 767px){
+	.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex
+;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 	.btn-default{
 		padding: 15px 55px 15px 15px;
@@ -4921,7 +4934,8 @@ header.main-header .header-sticky.active{
 	}
 	
 	.page-header-box h1{
-		font-size: 30px;
+		font-size: 26px;
+		line-height: 32px;
 	}
 
     .company-counter-item .icon-box img{
