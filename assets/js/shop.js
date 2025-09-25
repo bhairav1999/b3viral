@@ -11,26 +11,50 @@ const products = [
     link: "https://amzn.to/3VAIXH1",
     linkText: "Amazon.in",
   },
-    {
+  {
     imageSrc: "assets/images/shop/watch1.jpg",
     altText: "A pair of watch",
     link: "https://amzn.to/3IedxmY",
     linkText: "Amazon.in",
   },
-    {
+  {
     imageSrc: "assets/images/shop/mic1.jpg",
-    altText: "A pair of watch",
+    altText: "A mic",
     link: "https://amzn.to/4myjUPO",
     linkText: "Amazon.in",
   },
-
+  {
+    imageSrc: "assets/images/shop/mic1.jpg",
+    altText: "A mic",
+    link: "https://amzn.to/4myjUPO",
+    linkText: "Amazon.in",
+  },
+  {
+    imageSrc: "assets/images/shop/mic1.jpg",
+    altText: "A mic",
+    link: "https://amzn.to/4myjUPO",
+    linkText: "Amazon.in",
+  },
+  {
+    imageSrc: "assets/images/shop/mic1.jpg",
+    altText: "A mic",
+    link: "https://amzn.to/4myjUPO",
+    linkText: "Amazon.in",
+  },
+  {
+    imageSrc: "assets/images/shop/mic1.jpg",
+    altText: "A mic",
+    link: "https://amzn.to/4myjUPO",
+    linkText: "Amazon.in",
+  },
 ];
 
-const container = document.querySelector(".shop-data"); 
+const container = document.querySelector(".shop-data");
+const container1 = document.querySelector(".shop-data-1");
 
 products.forEach(product => {
   const productHTML = `
-    <div class="col-lg-3 col-md-2">
+    <div class="swiper-slide">
       <div class="team-member-item wow fadeInUp">
         <div class="team-image">
           <figure class="image-anime">
@@ -39,10 +63,13 @@ products.forEach(product => {
           <div class="team-social-icon"></div>
         </div>
         <div class="team-content">
-          <a href="${product.link}" class="btn-default" target="_blank">${product.linkText}</a>
+          <a href="${product.link}" class="btn-default" target="_blank">
+            ${product.linkText}
+          </a>
         </div>
       </div>
     </div>
   `;
   container.innerHTML += productHTML;
+  container1.innerHTML += productHTML;
 });
