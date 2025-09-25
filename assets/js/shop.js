@@ -6,15 +6,21 @@ const products = [
     linkText: "Amazon.in",
   },
   {
-    imageSrc: "assets/images/shop/shooes1.jpg",
-    altText: "A pair of shoes",
-    link: "https://amzn.to/4nGQ6BC",
+    imageSrc: "assets/images/shop/buds1.webp",
+    altText: "A pair of buds",
+    link: "https://amzn.to/3VAIXH1",
     linkText: "Amazon.in",
   },
     {
     imageSrc: "assets/images/shop/watch1.jpg",
     altText: "A pair of watch",
     link: "https://amzn.to/3IedxmY",
+    linkText: "Amazon.in",
+  },
+    {
+    imageSrc: "assets/images/shop/mic.jpg",
+    altText: "A pair of watch",
+    link: "https://amzn.to/4myjUPO",
     linkText: "Amazon.in",
   },
 
