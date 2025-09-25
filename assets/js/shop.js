@@ -18,7 +18,7 @@ const products = [
     linkText: "Amazon.in",
   },
     {
-    imageSrc: "assets/images/shop/mic.jpg",
+    imageSrc: "assets/images/shop/mic1.jpg",
     altText: "A pair of watch",
     link: "https://amzn.to/4myjUPO",
     linkText: "Amazon.in",
