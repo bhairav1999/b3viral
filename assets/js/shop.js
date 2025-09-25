@@ -11,6 +11,12 @@ const products = [
     link: "https://amzn.to/4nGQ6BC",
     linkText: "Amazon.in",
   },
+    {
+    imageSrc: "assets/images/shop/watch1.jpg",
+    altText: "A pair of watch",
+    link: "https://amzn.to/3IedxmY",
+    linkText: "Amazon.in",
+  },
 
 ];
 
